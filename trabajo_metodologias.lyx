@@ -1,0 +1,258 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Author
+Jhon Lopes-Camilo Martinez 
+\end_layout
+
+\begin_layout Title
+Metodologia Scrum v/s Cascada
+\end_layout
+
+\begin_layout Section
+Metodologia Scrum
+\end_layout
+
+\begin_layout Standard
+Primero que nada definiremos lo que es una metodología ágil se entiende
+ como los métodos de la ingeniería del software basados en el desarrollo
+ iterativo e incremental, donde los requerimientos y soluciones evolucionan
+ mediante la colaboración de grupos autos organizados y multidisciplinarios.
+ Ahora scrum es una metodología ágil y flexible para gestionar el desarrollo
+ de software, cuyo uno de sus principales objetivos es poder maximizar el
+ retorno más bien conocido como ROI.
+ En Scrum se caracteriza por tener entregas o avances parciales del producto
+ final.
+ En este sentido esta metodología esta principalmente orientado a entornos
+ de mucha complejidad.
+ Donde se prioriza siempre la innovación, la competencia, flexibilidad y
+ alta complejidad.
+ El proceso de esta en un proyecto se genera en periodos temporales, cortos
+ y fijos.
+ Cada iteración tiene que entregar un resultado completo.
+ Existen formas de planificar cada iteración primero parte mediante la selección
+ de requisitos más prioritarios esta actividad por lo general toma cuatro
+ horas como máximo.
+ Para luego planificar la iteración el equipo elabora la lista de tareas
+ de la iteración necesarias para desarrollar los requisitos que se habían
+ comprometidos.
+ La manera en que se ejecuta la iteración es mediante una pequeña reunión
+ todos los días de quince minutos como máximo en esta reunión cada miembro
+ del equipo responde a tres preguntas básicas las cuales son: ¿Qué he hecho
+ desde la última reunión de sincronización?-¿Qué voy a hacer a partir de
+ este momento?-¿Qué impedimentos tengo o voy a tener? Donde también dentro
+ de eseequipo presentan roles bien definido tales como Product Owner, Scrum
+ master, equipos de desarrollo y otros roles menos claves que se conocen
+ como roles auxiliares.
+ Para concluir Scrum es una metodologíaque permite cumplir fácilmente alas
+ expectativas generadas por el cliente, tiene una alta capacidad de ser
+ flexible al cambio, permite entregar una mayor calidad del software , permite
+ tener predicciones de tiempo lo que se logra mediante los llamados sprint
+ que permite estimar cuantos tiempos se demorara el equipo y por ultimo
+ permite reducir radicalmente el riesgo ya que mediante las diferentes reuniones
+ se pueden anticipar las diferentes coyunturas.
+ 
+\end_layout
+
+\begin_layout Section
+Metodologia cascada
+\end_layout
+
+\begin_layout Standard
+Ciclo de vida clásico o en cascada este enfoque del desarrollo de software
+ ha sido el más utilizado y en la actualidad, pese a la aparición de metodología
+s ágiles, sigue siendo la solución predominante, si bien, en cada organización
+ o en cada de proyecto se puede llevar a cabo con ciertas variantes.
+ Las fases en que se divide el ciclo de vida clásico, pueden ser diferentes.
+ Pero segun las que estableció Roger Pressman son : Analisis-Diseño-Codificacion
+es-Pruebas-Mantenimiento.
+ En el ciclo de vida clásico en función de las modificaciones y/o correcciones
+ que se realizan en una etapa será necesario la vuelta a fases previas para
+ hacer coherente el proceso de desarrollo y los modelos.
+ El principal inconveniente que se le ha achacado siempre a este tipo de
+ ciclo de vida es que los usuarios tardan demasiado en ver los resultados,
+ lo que hace que el tiempo transcurrido desde que se define el sistema hasta
+ que está disponible sea lo suficientemente amplio como para que hayan ocurrido
+ muchas cosas: desde que no estén la mayoría de las personas que participaron
+ en la especificación, como cambios en los procesos, cambios de criterio,
+ etc…, lo que provoca a hacer replanteamiento de los requisitos en etapas
+ más tardías del desarrollo con el coste que eso conlleva (un refinamiento
+ de los requisitos es razonable siempre y cuando no se superen unos límites)
+ y a que muy probablemente el sistema finalmente disponible esté alejado
+ de lo que realmente quiere el conjunto de usuarios en estos momentos que
+ es distinto a lo que querían hace meses y a lo que querrán dentro de otros
+ tantos.
+ Otro inconveniente ligado con el anterior es que al tratarse el sistema
+ como un todo, los modelos generados (catálogo de requisitos, casos de uso,
+ etc…) serán lo suficientemente grandes como para no poder se
+\end_layout
+
+\begin_layout Standard
+r revisados y comprendidos en toda su magnitud, sobre todo por personal
+ no informático.
+ Esto crea una incertidumbre sobre los requisitos del sistema que más adelante
+ traerá problemas.
+ No todo es malo en este modelo, ya que describe un procedimiento racional
+ y ordenado de desarrollo de software, la clave para su éxito o su fracaso
+ es como se gobierne el mismo y las circunstancias que rodeen al proyecto
+ en el momento de su ejecución.
+ Además, existen variantes que ofrecen una mayor flexibilidad al mismo y
+ que permite reducir sus riesgos.
+ 
+\end_layout
+
+\begin_layout Section
+Comparativas entre ambas metodologias
+\end_layout
+
+\begin_layout Standard
+Desarollo : 
+\end_layout
+
+\begin_layout Itemize
+El esquema de desarollo en cascada se caracteriza por proponer actividades
+ secuenciales bien definidas y planear un analisis intensivos de requerimientos.
+ A diferencias scrum que propone actividades mas flexibles donde el equipo
+ tiene reuniones periodicas para ver el avance y cambios que podria tener
+ el sistema, ademas la metodologia scrum permite entregar distintos avances
+ del software a medida que este avanza a diferencia del metodo de la cascada
+ que solo entrega el software cuando este haya finalizado.
+\end_layout
+
+\begin_layout Standard
+Equipo :
+\end_layout
+
+\begin_layout Itemize
+Cascada plantea una estructura de trabajo mas jerarquica y con poca participacio
+n del equipo por completo del sistema.
+ En scrum se fijan distintos roles de manera que exista una alta comunicacion
+ entre todo el grupo de trabajo.
+\end_layout
+
+\begin_layout Standard
+Costos:
+\end_layout
+
+\begin_layout Itemize
+La metodologia cascada es una metodologia muy costosa si uno quiere hacerle
+ cambios al sistema una vez que ya esta bien definido y el enorme cantidad
+ de documentacion que este necesita.
+ A diferencia de Scrum que al trabajar por etapas permite devolverse y modificar
+ constantemente segun los requerimientos que el cliente solicite y a diferencia
+ de la otra metodologia se documenta lo exencialmente necesario.
+\end_layout
+
+\begin_layout Standard
+Adaptibilidad
+\end_layout
+
+\begin_layout Itemize
+Ambas Formas de trabajo permite la complementacion con otras tipos de metodologi
+as agiles y no agiles, teniendo muy buenos resultado.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "http://www.northware.mx/2012/11/29/desarrollo-en-cascada-waterfall-vs-desarrollo-agile-scrum/"
+key "key-1"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "http://agile101.net/2009/09/08/the-difference-between-waterfall-iterative-waterfall-scrum-and-lean-in-pictures/"
+key "key-2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "http://www.proyectosagiles.org/que-es-scrum"
+key "key-3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label "http://es.wikipedia.org/wiki/Desarrollo\\_{}en\\_{}cascada"
+key "key-4"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
