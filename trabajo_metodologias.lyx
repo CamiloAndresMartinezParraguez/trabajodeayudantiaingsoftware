@@ -64,11 +64,11 @@ Jhon Lopes-Camilo Martinez
 \end_layout
 
 \begin_layout Title
-Metodologia Scrum v/s Cascada
+Metodología Scrum v/s Cascada
 \end_layout
 
 \begin_layout Section
-Metodologia Scrum
+Metodología Scrum
 \end_layout
 
 \begin_layout Standard
@@ -99,21 +99,20 @@ Primero que nada definiremos lo que es una metodología ágil se entiende
  del equipo responde a tres preguntas básicas las cuales son: ¿Qué he hecho
  desde la última reunión de sincronización?-¿Qué voy a hacer a partir de
  este momento?-¿Qué impedimentos tengo o voy a tener? Donde también dentro
- de eseequipo presentan roles bien definido tales como Product Owner, Scrum
+ de ese equipo presentan roles bien definido tales como Product Owner, Scrum
  master, equipos de desarrollo y otros roles menos claves que se conocen
  como roles auxiliares.
- Para concluir Scrum es una metodologíaque permite cumplir fácilmente alas
- expectativas generadas por el cliente, tiene una alta capacidad de ser
- flexible al cambio, permite entregar una mayor calidad del software , permite
- tener predicciones de tiempo lo que se logra mediante los llamados sprint
- que permite estimar cuantos tiempos se demorara el equipo y por ultimo
- permite reducir radicalmente el riesgo ya que mediante las diferentes reuniones
- se pueden anticipar las diferentes coyunturas.
- 
+ Para concluir Scrum es una metodología que permite cumplir fácilmente a
+ las expectativas generadas por el cliente, tiene una alta capacidad de
+ ser flexible al cambio, permite entregar una mayor calidad del software
+ , permite tener predicciones de tiempo lo que se logra mediante los llamados
+ sprint que permite estimar cuantos tiempos se demorara el equipo y por
+ ultimo permite reducir radicalmente el riesgo ya que mediante las diferentes
+ reuniones se pueden anticipar las diferentes coyunturas.
 \end_layout
 
 \begin_layout Section
-Metodologia cascada
+Metodología cascada
 \end_layout
 
 \begin_layout Standard
@@ -122,10 +121,10 @@ Ciclo de vida clásico o en cascada este enfoque del desarrollo de software
 s ágiles, sigue siendo la solución predominante, si bien, en cada organización
  o en cada de proyecto se puede llevar a cabo con ciertas variantes.
  Las fases en que se divide el ciclo de vida clásico, pueden ser diferentes.
- Pero segun las que estableció Roger Pressman son : Analisis-Diseño-Codificacion
-es-Pruebas-Mantenimiento.
+ Pero según las que estableció Roger Pressman son: Análisis-Diseño-Codificacione
+s-Pruebas-Mantenimiento.
  En el ciclo de vida clásico en función de las modificaciones y/o correcciones
- que se realizan en una etapa será necesario la vuelta a fases previas para
+ que se realizan en una etapa será necesaria la vuelta a fases previas para
  hacer coherente el proceso de desarrollo y los modelos.
  El principal inconveniente que se le ha achacado siempre a este tipo de
  ciclo de vida es que los usuarios tardan demasiado en ver los resultados,
@@ -142,12 +141,8 @@ es-Pruebas-Mantenimiento.
  tantos.
  Otro inconveniente ligado con el anterior es que al tratarse el sistema
  como un todo, los modelos generados (catálogo de requisitos, casos de uso,
- etc…) serán lo suficientemente grandes como para no poder se
-\end_layout
-
-\begin_layout Standard
-r revisados y comprendidos en toda su magnitud, sobre todo por personal
- no informático.
+ etc…) serán lo suficientemente grandes como para no poder ser revisados
+ y comprendidos en toda su magnitud, sobre todo por personal no informático.
  Esto crea una incertidumbre sobre los requisitos del sistema que más adelante
  traerá problemas.
  No todo es malo en este modelo, ya que describe un procedimiento racional
@@ -156,24 +151,23 @@ r revisados y comprendidos en toda su magnitud, sobre todo por personal
  en el momento de su ejecución.
  Además, existen variantes que ofrecen una mayor flexibilidad al mismo y
  que permite reducir sus riesgos.
- 
 \end_layout
 
 \begin_layout Section
-Comparativas entre ambas metodologias
+Comparativas entre ambas metodologías
 \end_layout
 
 \begin_layout Standard
-Desarollo : 
+Desarrollo :
 \end_layout
 
 \begin_layout Itemize
-El esquema de desarollo en cascada se caracteriza por proponer actividades
- secuenciales bien definidas y planear un analisis intensivos de requerimientos.
- A diferencias scrum que propone actividades mas flexibles donde el equipo
- tiene reuniones periodicas para ver el avance y cambios que podria tener
- el sistema, ademas la metodologia scrum permite entregar distintos avances
- del software a medida que este avanza a diferencia del metodo de la cascada
+El esquema de desarrollo en cascada se caracteriza por proponer actividades
+ secuenciales bien definidas y planear un análisis intensivo de requerimientos.
+ A diferencias scrum que propone actividades más flexibles donde el equipo
+ tiene reuniones periódicas para ver el avance y cambios que podría tener
+ el sistema, además la metodología scrum permite entregar distintos avances
+ del software a medida que este avanza a diferencia del método de la cascada
  que solo entrega el software cuando este haya finalizado.
 \end_layout
 
@@ -182,9 +176,9 @@ Equipo :
 \end_layout
 
 \begin_layout Itemize
-Cascada plantea una estructura de trabajo mas jerarquica y con poca participacio
+Cascada plantea una estructura de trabajo más jerárquica y con poca participació
 n del equipo por completo del sistema.
- En scrum se fijan distintos roles de manera que exista una alta comunicacion
+ En scrum se fijan distintos roles de manera que exista una alta comunicación
  entre todo el grupo de trabajo.
 \end_layout
 
@@ -193,20 +187,20 @@ Costos:
 \end_layout
 
 \begin_layout Itemize
-La metodologia cascada es una metodologia muy costosa si uno quiere hacerle
- cambios al sistema una vez que ya esta bien definido y el enorme cantidad
- de documentacion que este necesita.
+La metodología cascada es una metodología muy costosa si uno quiere hacerle
+ cambios al sistema una vez que ya está bien definido y el enorme cantidad
+ de documentación que este necesita.
  A diferencia de Scrum que al trabajar por etapas permite devolverse y modificar
- constantemente segun los requerimientos que el cliente solicite y a diferencia
- de la otra metodologia se documenta lo exencialmente necesario.
+ constantemente según los requerimientos que el cliente solicite y a diferencia
+ de la otra metodología se documenta lo esencialmente necesario.
 \end_layout
 
 \begin_layout Standard
-Adaptibilidad
+Adaptabilidad
 \end_layout
 
 \begin_layout Itemize
-Ambas Formas de trabajo permite la complementacion con otras tipos de metodologi
+Ambas Formas de trabajo permite la complementación con otras tipos de metodologí
 as agiles y no agiles, teniendo muy buenos resultado.
 \end_layout
 
