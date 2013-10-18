@@ -1,5 +1,4 @@
 #include <iostream>
-#include<conio.h>
 #include<stdlib.h>
 #include <math.h>
 #include <ctime>
@@ -7,22 +6,23 @@ using namespace std;
 
 void Informacion_grupo(){
     cout<<"\nCamilo Martinez P. Rut: 18767383-6 \n";
-    cout<<"\nJonh Lopez  Rut: xxxxxxxxxxx \n";
+    cout<<"\nJonh Lopez S. Rut: 17382459-9 \n";
     time_t t = time(0);   // Obtiene la fecha de ahora
     struct tm * now = localtime( & t );
     cout<<"\nFecha de compilacion:";cout << (now->tm_year + 1900) << '-'<< (now->tm_mon + 1) << '-'<<  now->tm_mday<< endl;
     }
 
-void calculo_con_limites(int grado, float v[10], float v2[10], float v3[10], int li, int ls)
+void calculo_con_limites(float grado, float v[10], float v2[10], float v3[10], int li, int ls)
 {
 	int i;
 	for(i = 0; i<=grado; i++)
 	{
-		v3[i] = ((v[i]*(pow(ls,v2[i]))/v2[i]) - (v[i]*pow(li,v2[i]))/v2[i]);
+		v3[i] = ((v[i]*(pow(li,v2[i]))/v2[i]) - (v[i]*pow(ls,v2[i]))/v2[i]);
     }
 }
 
-void resultado(int grado, float v3[10])
+
+void resultado(int grado, int v3[10])
 {
 	float res = 0;
 	for(int i=0; i<=grado; i++)
@@ -136,67 +136,6 @@ void calculo(int grado, int v2[10])
     }
 }
 
-void resultado(int n, int a[10], int b[10])
-{
-	int i;
-	for(i=0; i<=n; i++)
-    {
-
-	    	if(b[i] != 1)
-	    	{
-	    	   if(a[i]!= 1)
-	    	    {
-			    	if(a[i] > 0)
-			    	{
-			    		cout<<" + "<<a[i]<<"x^"<<b[i];
-			    	}
-			    	else
-			    	{
-			    	    cout<<"  "<<a[i]<<"x^"<<b[i];
-			    	}
-			    }
-			    else
-			    {
-			       if(a[i] > 0)
-			    	{
-			    		cout<<" +  "<<"x^"<<b[i];
-			    	}
-			    	else
-			    	{
-			    	    cout<<" - "<<"x^"<<b[i];
-			    	}
-			    }
-		    }
-		    else
-		    {
-		    	if(a[i]!=1)
-		    	 {
-		    	 	if(a[i] > 0)
-			    	{
-			    		cout<<"  +  "<<a[i]<<" x ";
-			    	}
-			    	else
-			    	{
-			    	    cout<<"   "<<a[i]<<" x ";
-			    	}
-		    	 }
-			    else
-				{
-					if(a[i] > 0)
-			    	{
-			    		cout<<"  + "<<" x ";
-			    	}
-			    	else
-			    	{
-			    	    cout<<"  - "<<" x ";
-			    	}
-				}
-		    }
-    }
-    cout<<"+ C ";
-    cout<<endl;
-
-}
 
 void Calculo_Denominador( int grado, float v2[10]){
     // con esta funcion se pretende calcular solo la parte del denominador de esta.
@@ -308,14 +247,24 @@ void den(float grado, float v2[10])
 
 
 
+void resultado(int grado, float v3[10])
+{
+	float res = 0;
+	for(int i=0; i<=grado; i++)
+	{
+		res = res + v3[i];
+	}
+
+	cout<<"El resultado de la integrales : "<<res<<endl<<endl;
+}
 
 
 
 main(){
 char op;
-int grado;
+int grado,li,ls;
 float v[10],v2[10],v3[10];
-int li,ls;
+
 
 do{
 cout<<"\n\n\n  Trabajo Numero Uno Ing. Software\n\n\n";
@@ -354,8 +303,6 @@ cin>>op;
             Calculo_Denominador(grado,v2);
             calculo_con_limites(grado,v,v2,v3, li,ls);
             resultado(grado,v3);
-
-
 
         }
         if ('v'==op){
