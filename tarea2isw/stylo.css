@@ -1,0 +1,11 @@
+body
+{
+	font-family: Arial,Tahoma;
+	background-image:url(fondo.jpg);
+}
+
+a {
+	font-family: Arial,Tahoma;
+	font-size: 17px;
+	color: red;
+}
