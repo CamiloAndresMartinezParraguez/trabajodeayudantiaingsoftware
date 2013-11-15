@@ -19,7 +19,7 @@
         echo "Bazinga!!!";
      }
      if ($variable==2){
-         echo "Haz el amor y no la guerra";
+         echo "Rock and Roll¡¡¡";
     }   
     ?>
     <hr align="LEFT" size="1" width="300" color="Red" noshade> 
@@ -32,7 +32,7 @@
     <A HREF="https://github.com/kmilorio"> Perfil GitHub de Camilo Martinez</A><br>
     <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-frc3/1468805_602112096492417_142576635_n.jpg" "LINK" width="190" height="200"alt="kmilo" /<br><br>
     <hr align="LEFT" size="1" width="300" color="Red" noshade> 
-    Nombre :Jhon Lopez <br>
+    Nombre :Jhon Lopez Suarez<br>
     Edad : 23<br>
     Carrera: Ing. informatica (UTEM)<br>
     Hobby:Guitarra<br>
